@@ -1,0 +1,33 @@
+#header_cont{
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10%;
+
+    /*border: 1px solid red;*/
+}
+.header_img{
+    width: 55%;
+    height: 100%;
+    padding: 3% 0% 3% 3%;
+    /*border: 1px solid green;*/
+}
+.img_container{
+    /*background-color: aqua;*/
+    height: 100%;
+}
+.img_container img{
+    max-width: 100%;
+    max-height: 100%;
+}
+#regform{
+    width: 45%;
+    height: 100%;
+    /*border: 2px solid red;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 15% 3% 0%;
+}

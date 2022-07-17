@@ -1,0 +1,80 @@
+.login-form {
+    max-width: 300px;
+  }
+  .login-form-forgot {
+    float: right;
+  }
+  .ant-col-rtl .login-form-forgot {
+    float: left;
+  }
+  .login-form-button {
+    width: 100%;
+  }
+  .ant-form-item-label
+    > label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before {
+    display: none;
+  }
+
+
+  #header_cont{
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /*padding-left: 10%;*/
+
+    /*border: 1px solid red;*/
+}
+.header_img{
+    width: 50%;
+    height: 100%;
+    padding: 3% 0% 3% 2%;
+    /*border: 1px solid green;*/
+}
+.img_container{
+    /*background-color: aqua;*/
+    height: 100%;
+}
+.img_container img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.regform{
+    width: 50%;
+    height: 100%;
+    /*border: 2px solid red;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3% 12% 3% 0%;
+}
+.ant-form-item{
+    margin-bottom: 0px;
+}
+.ant-form-vertical .ant-form-item-label, .ant-col-24.ant-form-item-label, .ant-col-xl-24.ant-form-item-label{
+  padding-bottom: 0 0 0;
+}
+.ant-input{
+    border: 1px solid rgb(91, 87, 87);
+  }
+
+  .ant-input-affix-wrapper{
+    border: 1px solid rgb(91, 87, 87);
+  }
+  #for_pass{
+    color: #F7655F;
+  }
+  
+  .login-form-button{
+    background-color: #F7655F;
+    color: #FFFFFF;
+  }
+
+  #pass_inp{
+    margin-bottom: 0;
+  }
+
+  #signup_hreaf{
+    color: #F7655F;
+  }
